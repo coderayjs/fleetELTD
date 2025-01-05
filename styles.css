@@ -336,7 +336,7 @@ footer {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: var(--primary-color);
+    background: var(--color);
     color: var(--light-color);
     border: none;
     width: 40px;

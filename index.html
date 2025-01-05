@@ -3,6 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Fleet Ease Ltd. is a forward-thinking mobility solutions company dedicated to redefining transportation, fleet management, and sustainability across Africa and beyond.">
+    <meta name="keywords" content="Fleet Ease Ltd, sustainable mobility, electric vehicles, fleet management, Africa, transportation, zero-emission, technology, innovation">
+    <meta name="author" content="Fleet Ease Ltd">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="/assets/images/logo.jpg">
+    <link rel="apple-touch-icon" href="/assets/images/logo.jpg">
+    <meta name="google-site-verification" content="google-site-verification=1234567890">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="googlebot" content="index, follow">
+    <meta name="google-site-verification" content="google-site-verification=1234567890">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fleet Ease Ltd. - Sustainable Mobility Solutions</title>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -19,6 +29,25 @@
             }
         }
     </script>
+    <!-- Basic Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    
+    <!-- Android/Chrome Icons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/android-chrome-512x512.png">
+    
+    <!-- Windows Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    
+    <!-- Web Manifest -->
+    <link rel="manifest" href="site.webmanifest">
+    
+    <!-- Browser Theme -->
+    <meta name="theme-color" content="#6a1b9a">
 </head>
 
 <body class="font-sans">
@@ -43,13 +72,13 @@
                 </div>
                 <div class="flex items-center space-x-4">
                     <div class="flex space-x-3">
-                        <a href="#" class="hover:text-secondary transition-colors">
+                        <a href="facebook.com/fleeteaseltd" class="hover:text-secondary transition-colors">
                             <i class="fab fa-facebook"></i>
                         </a>
-                        <a href="#" class="hover:text-secondary transition-colors">
+                        <a href="x.com" class="hover:text-secondary transition-colors">
                             <i class="fab fa-twitter"></i>
                         </a>
-                        <a href="#" class="hover:text-secondary transition-colors">
+                        <a href="linkedin" class="hover:text-secondary transition-colors">
                             <i class="fab fa-linkedin"></i>
                         </a>
                         <a href="#" class="hover:text-secondary transition-colors">
@@ -63,11 +92,11 @@
             <div class="flex items-center justify-between h-20">
                 <!-- Logo -->
                 <a href="#" class="flex items-center space-x-2">
-                    <img src="/assets/images/logo.jpg" alt="Fleet Ease Logo" class="h-12 w-auto">
-                    <!-- <div>
+                    <!-- <img src="/assets/images/logo.jpg" alt="Fleet Ease Logo" class="h-12 w-auto"> -->
+                    <div>
                         <span class="text-secondary font-bold text-2xl block">Fleet Ease</span>
                         <span class="text-white/80 text-xs">Sustainable Mobility Solutions</span>
-                    </div> -->
+                    </div>
                 </a>
 
                 <!-- Desktop Menu -->
@@ -139,17 +168,133 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <header id="home"
-        class="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-primary to-purple-900">
-        <div class="absolute inset-0 bg-black/50"></div>
-        <div class="relative z-10 text-center px-6 max-w-4xl mx-auto">
-            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">Welcome to Fleet Ease Ltd.</h1>
-            <p class="text-xl text-gray-200 mb-8">Innovating Transportation and Sustainability</p>
-            <a href="#contact"
-                class="inline-block bg-secondary text-primary px-8 py-4 rounded-full font-bold hover:bg-yellow-400 transition-colors transform hover:scale-105 duration-200">
-                Get Started
-            </a>
+    <!-- Enhanced Hero Section -->
+    <header id="home" class="relative min-h-screen flex items-center justify-center">
+        <!-- Background Video/Image with Overlay -->
+        <div class="absolute inset-0 z-0">
+            <div class="absolute inset-0 bg-gradient-to-r from-primary/80 to-purple-900/80 z-10"></div>
+            <!-- Replace video with image if needed -->
+            <video 
+                class="w-full h-full object-cover" 
+                autoplay 
+                loop 
+                muted 
+                playsinline
+                poster="hero-fallback.jpg"
+            >
+                <source src="assets/images/vied.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- Hero Content -->
+        <div class="container mx-auto px-6 relative z-20">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Left Content -->
+                <div class="text-white space-y-8">
+                    <div class="flex items-center gap-2 text-secondary">
+                        <span class="h-px w-8 bg-secondary"></span>
+                        <span class="uppercase tracking-wider text-sm font-semibold">Welcome to Fleet Ease Ltd</span>
+                    </div>
+                    
+                    <h1 class="text-4xl md:text-6xl font-bold leading-tight">
+                        Innovating 
+                        <span class="text-secondary">Transportation</span> 
+                        for a Sustainable Future
+                    </h1>
+                    
+                    <p class="text-lg text-white/90 max-w-xl">
+                        Leading Africa's transition to zero-emission mobility with cutting-edge fleet solutions and sustainable technology.
+                    </p>
+
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#contact" class="bg-secondary text-primary px-8 py-4 rounded-full font-bold hover:bg-white transition-all transform hover:scale-105 duration-300 shadow-lg">
+                            Get Started
+                        </a>
+                        <a href="#about" class="border-2 border-white text-white px-8 py-4 rounded-full font-bold hover:bg-white hover:text-primary transition-all flex items-center gap-2 group">
+                            Learn More
+                            <i class="fas fa-arrow-right transform group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+
+                    <!-- Key Statistics -->
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-8 border-t border-white/10">
+                        <div>
+                            <div class="text-3xl font-bold text-secondary">150+</div>
+                            <div class="text-white/80 text-sm">Fleet Vehicles</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-secondary">50+</div>
+                            <div class="text-white/80 text-sm">Corporate Clients</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-secondary">24/7</div>
+                            <div class="text-white/80 text-sm">Support Available</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold text-secondary">100%</div>
+                            <div class="text-white/80 text-sm">Electric Fleet</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Content - Feature Cards -->
+                <div class="hidden lg:grid grid-cols-2 gap-4 relative">
+                    <!-- Feature Cards -->
+                    <div class="space-y-4">
+                        <div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl hover:bg-white/20 transition-colors cursor-pointer transform hover:-translate-y-1 duration-300">
+                            <i class="fas fa-charging-station text-secondary text-2xl mb-4"></i>
+                            <h3 class="text-white font-bold mb-2">Charging Network</h3>
+                            <p class="text-white/80 text-sm">Extensive network of charging stations across major cities</p>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl hover:bg-white/20 transition-colors cursor-pointer transform hover:-translate-y-1 duration-300">
+                            <i class="fas fa-leaf text-secondary text-2xl mb-4"></i>
+                            <h3 class="text-white font-bold mb-2">Eco-Friendly</h3>
+                            <p class="text-white/80 text-sm">Zero-emission fleet reducing carbon footprint</p>
+                        </div>
+                    </div>
+                    <div class="space-y-4 mt-8">
+                        <div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl hover:bg-white/20 transition-colors cursor-pointer transform hover:-translate-y-1 duration-300">
+                            <i class="fas fa-shield-alt text-secondary text-2xl mb-4"></i>
+                            <h3 class="text-white font-bold mb-2">Safe & Secure</h3>
+                            <p class="text-white/80 text-sm">Advanced safety features and 24/7 monitoring</p>
+                        </div>
+                        <div class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl hover:bg-white/20 transition-colors cursor-pointer transform hover:-translate-y-1 duration-300">
+                            <i class="fas fa-cog text-secondary text-2xl mb-4"></i>
+                            <h3 class="text-white font-bold mb-2">Smart Management</h3>
+                            <p class="text-white/80 text-sm">AI-powered fleet management system</p>
+                        </div>
+                    </div>
+
+                    <!-- Floating Elements -->
+                    <div class="absolute -top-4 -right-4 w-20 h-20 bg-secondary/20 rounded-full blur-xl"></div>
+                    <div class="absolute -bottom-8 -left-8 w-32 h-32 bg-primary/20 rounded-full blur-xl"></div>
+                </div>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white/80 animate-bounce hidden md:block cursor-pointer transition-opacity duration-300 hover:text-secondary">
+                <div class="flex flex-col items-center gap-2">
+                    <span class="text-sm">Scroll Down</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Trusted By Section -->
+        <div class="absolute bottom-0 left-0 right-0 bg-black/30 backdrop-blur-sm py-8 hidden md:block">
+            <div class="container mx-auto px-6">
+                <div class="flex items-center justify-between">
+                    <span class="text-white/60 text-sm">Trusted by Leading Organizations:</span>
+                    <div class="flex items-center gap-12">
+                        <!-- Replace with actual client logos -->
+                        <img src="/assets/images/Grand.png" alt="Client 1" class="h-8 opacity-50 hover:opacity-100 transition-opacity">
+                        <img src="/assets/images/verstronet.png" alt="Client 2" class="h-8 opacity-50 hover:opacity-100 transition-opacity">
+                        <img src="/assets/images/google.png" alt="Client 3" class="h-8 opacity-50 hover:opacity-100 transition-opacity">
+                        <img src="/assets/images/bipc.png" alt="Client 4" class="h-8 opacity-50 hover:opacity-100 transition-opacity">
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -379,6 +524,130 @@
                     <h3 class="text-xl font-bold text-primary mb-4">Uncompromising Quality</h3>
                     <p class="text-gray-600">Highest standards of performance, durability, and luxury for all uses.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-primary mb-4">Our Projects</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Discover our innovative fleet management solutions and
+                    sustainable transportation projects across Africa.</p>
+            </div>
+    
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+                    <img src="/assets/images/f1.jpeg" alt="Electric Fleet Project"
+                        class="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="text-xl font-bold text-white mb-2">Electric Fleet Implementation</h3>
+                            <p class="text-white/90 text-sm mb-4">Large-scale electric vehicle fleet deployment for
+                                corporate clients</p>
+                            <a href="#" class="inline-flex items-center text-secondary hover:text-white transition-colors">
+                                Learn More
+                                <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Project 2 -->
+                <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+                    <img src="/assets/images/f2.jpeg" alt="Charging Infrastructure"
+                        class="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="text-xl font-bold text-white mb-2">Charging Network</h3>
+                            <p class="text-white/90 text-sm mb-4">Nationwide charging infrastructure development</p>
+                            <a href="#" class="inline-flex items-center text-secondary hover:text-white transition-colors">
+                                Learn More
+                                <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Project 3 -->
+                <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+                    <img src="/assets/images/f3.jpeg" alt="Smart City Integration"
+                        class="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="text-xl font-bold text-white mb-2">Smart City Integration</h3>
+                            <p class="text-white/90 text-sm mb-4">Urban mobility solutions for smart cities</p>
+                            <a href="#" class="inline-flex items-center text-secondary hover:text-white transition-colors">
+                                Learn More
+                                <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Project 4 -->
+                <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+                    <img src="/assets/images/f4.jpeg" alt="Sustainable Transport"
+                        class="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="text-xl font-bold text-white mb-2">Green Transportation</h3>
+                            <p class="text-white/90 text-sm mb-4">Zero-emission transport solutions</p>
+                            <a href="#" class="inline-flex items-center text-secondary hover:text-white transition-colors">
+                                Learn More
+                                <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Project 5 -->
+                <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+                    <img src="/assets/images/f5.jpeg" alt="Fleet Management"
+                        class="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="text-xl font-bold text-white mb-2">Fleet Management Systems</h3>
+                            <p class="text-white/90 text-sm mb-4">Advanced fleet tracking and management solutions</p>
+                            <a href="#" class="inline-flex items-center text-secondary hover:text-white transition-colors">
+                                Learn More
+                                <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Project 6 -->
+                <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+                    <img src="/assets/images/f6.jpeg" alt="Renewable Energy"
+                        class="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-110">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 class="text-xl font-bold text-white mb-2">Renewable Energy Integration</h3>
+                            <p class="text-white/90 text-sm mb-4">Solar-powered charging solutions</p>
+                            <a href="#" class="inline-flex items-center text-secondary hover:text-white transition-colors">
+                                Learn More
+                                <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- View All Projects Button -->
+            <div class="text-center mt-12">
+                <a href="#"
+                    class="inline-flex items-center px-8 py-3 bg-primary text-white rounded-full hover:bg-secondary hover:text-primary transition-colors group">
+                    View All Projects
+                    <i class="fas fa-arrow-right ml-2 transform group-hover:translate-x-1 transition-transform"></i>
+                </a>
             </div>
         </div>
     </section>
